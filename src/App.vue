@@ -1,10 +1,12 @@
 <script setup lang="ts">
-import TestComponent from './components/features/style-variables.vue'
+// import TestComponent from './components/features/style-variables.vue'
+import MemoDerective from './components/features/memo-derective.vue'
 </script>
 
 <template>
   <main>
-		<TestComponent />
+		<!-- <TestComponent /> -->
+		<MemoDerective />
   </main>
 </template>
 

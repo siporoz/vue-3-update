@@ -1,14 +1,16 @@
 <script setup lang="ts">
 // import TestComponent from './components/features/style-variables.vue'
 // import MemoDerective from './components/features/memo-derective.vue'
-import EffectScope from './components/features/effect-scope.vue'
+// import EffectScope from './components/features/effect-scope.vue'
+import WatchEffect from './components/features/watch-effect.vue'
 </script>
 
 <template>
   <main>
 		<!-- <TestComponent /> -->
 		<!-- <MemoDerective /> -->
-		<EffectScope />
+		<!-- <EffectScope /> -->
+		<WatchEffect />
   </main>
 </template>
 

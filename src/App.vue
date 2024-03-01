@@ -2,7 +2,8 @@
 // import TestComponent from './components/features/style-variables.vue'
 // import MemoDerective from './components/features/memo-derective.vue'
 // import EffectScope from './components/features/effect-scope.vue'
-import WatchEffect from './components/features/watch-effect.vue'
+// import WatchEffect from './components/features/watch-effect.vue'
+import ImportedProps from './components/features/imported-props.vue'
 </script>
 
 <template>
@@ -10,7 +11,12 @@ import WatchEffect from './components/features/watch-effect.vue'
 		<!-- <TestComponent /> -->
 		<!-- <MemoDerective /> -->
 		<!-- <EffectScope /> -->
-		<WatchEffect />
+		<!-- <WatchEffect /> -->
+		<ImportedProps
+			name="fwef"
+			:age="123"
+			extraProp="fwef"
+		/>
   </main>
 </template>
 

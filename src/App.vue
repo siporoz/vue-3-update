@@ -1,9 +1,12 @@
 <script setup lang="ts">
+import { ref } from 'vue'
 // import TestComponent from './components/features/style-variables.vue'
 // import MemoDerective from './components/features/memo-derective.vue'
 // import EffectScope from './components/features/effect-scope.vue'
 // import WatchEffect from './components/features/watch-effect.vue'
-import ImportedProps from './components/features/imported-props.vue'
+// import ImportedProps from './components/features/imported-props.vue'
+import GenericComponent from './components/features/generic-component.vue'
+
 </script>
 
 <template>
@@ -12,11 +15,12 @@ import ImportedProps from './components/features/imported-props.vue'
 		<!-- <MemoDerective /> -->
 		<!-- <EffectScope /> -->
 		<!-- <WatchEffect /> -->
-		<ImportedProps
+		<!-- <ImportedProps
 			name="fwef"
 			:age="123"
 			extraProp="fwef"
-		/>
+		/> -->
+		<GenericComponent name="fsff" :age="{ name: 'fwefw', age: 1 }" />
   </main>
 </template>
 

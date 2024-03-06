@@ -6,9 +6,12 @@ import { ref } from 'vue'
 // import WatchEffect from './components/features/watch-effect.vue'
 // import ImportedProps from './components/features/imported-props.vue'
 // import GenericComponent from './components/features/generic-component.vue'
-import DefineModel from './components/features/define-model.vue'
+// import DefineModel from './components/features/define-model.vue'
+import VBindShort from './components/features/v-bind-shorthand.vue'
 
 const difModel = ref(1)
+const id = 1
+const name = 'wefwf'
 </script>
 
 <template>
@@ -23,7 +26,8 @@ const difModel = ref(1)
 			extraProp="fwef"
 		/> -->
 		<!-- <GenericComponent name="fsff" :age="{ name: 'fwefw', age: 1 }" /> -->
-		<DefineModel v-model="difModel" />
+		<!-- <DefineModel v-model="difModel" /> -->
+		<!-- <VBindShort :id :name /> -->
   </main>
 </template>
 

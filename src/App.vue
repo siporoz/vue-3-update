@@ -5,8 +5,10 @@ import { ref } from 'vue'
 // import EffectScope from './components/features/effect-scope.vue'
 // import WatchEffect from './components/features/watch-effect.vue'
 // import ImportedProps from './components/features/imported-props.vue'
-import GenericComponent from './components/features/generic-component.vue'
+// import GenericComponent from './components/features/generic-component.vue'
+import DefineModel from './components/features/define-model.vue'
 
+const difModel = ref(1)
 </script>
 
 <template>
@@ -20,7 +22,8 @@ import GenericComponent from './components/features/generic-component.vue'
 			:age="123"
 			extraProp="fwef"
 		/> -->
-		<GenericComponent name="fsff" :age="{ name: 'fwefw', age: 1 }" />
+		<!-- <GenericComponent name="fsff" :age="{ name: 'fwefw', age: 1 }" /> -->
+		<DefineModel v-model="difModel" />
   </main>
 </template>
 
